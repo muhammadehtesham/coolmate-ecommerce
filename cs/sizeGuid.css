@@ -1,0 +1,60 @@
+:root {
+    --border-color: #e8e8e8;
+    --bg-color: #eaeaea;
+    --text-white:white;
+    --text-dark-gray:gray;
+    --bg-black:black;
+}
+
+.sizeGuid-inner .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: var(--text-white);
+    background-color: var(--bg-black);
+}
+.sizeGuid-inner .nav-link {
+   color: var(--text-dark-gray);
+}
+
+.sizeGuid-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sizeGuid-inner .tab-content{
+   /* width: 655px; */
+   width: 60%;
+}
+
+.kidScrollTable{
+    overflow-x: scroll;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border: 0.1px solid var(--border-color);
+    padding: 15px 5px;
+    text-align: center;
+}
+
+.sizeGuid-inner thead {
+    background-color: var(--bg-color);
+}
+
+td:first-child {
+    background-color: var(--bg-color);
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .sizeGuid-inner .tab-content{
+      
+        width: 100%;
+     } 
+}

@@ -1,0 +1,34 @@
+.productionDetail-inner .buttons-default {
+    margin-top: 0px;
+   width: 135px;
+  }
+.productionDetail-inner .buttons-default button {
+  width: 150px;
+  height: 150px;
+
+}
+
+.productionDetail-inner .buttons-default button {
+  width: 100%;
+  height: 15%;
+}
+
+.productionDetail-inner .buttons-default button img {
+  width: 100%;
+  height: 100%;
+}
+
+/* media query  */
+
+@media screen and (max-width: 992px) {
+    .productionDetail-inner .buttons-default {
+      
+        width: auto;
+    }
+}
+@media screen and (max-width: 768px) {
+   
+}
+@media screen and (max-width: 550px) {
+    
+}

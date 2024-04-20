@@ -1,0 +1,123 @@
+:root {
+  --bg-black: black;
+  --text-white: white;
+  --text-black:black;
+  --border-gray: rgb(231, 231, 231);
+  --btn-gray: gray;
+  --bg-orange: #fb5300;
+}
+
+.productionDetail {
+}
+
+/* .productionDetail .carousel-indicators{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 0px;
+}
+
+.productionDetail .carousel-indicators button{
+    width: 140px !important;
+    height: 119px !important;
+    opacity: 1;
+} */
+.productionDetail h6{
+  color: black;
+}
+.carousel-indicators {
+  flex-direction: column;
+  position: absolute;
+  bottom: 0px;
+  top: 0px;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-right: 15%;
+  margin-bottom: 1rem;
+  margin-left: 0%;
+}
+.productionDetail .carousel-indicators button {
+  width: 17% !important;
+  height: 13% !important;
+  opacity: 1;
+}
+
+.filter-size .size-box {
+  width: 45px;
+  height: 45px;
+}
+.sizeActive {
+  background-color: var(--bg-black);
+  color: var(--text-white);
+}
+
+/* quantity  */
+.product-d-quantity .quantity-increase-dec {
+  border: 1px solid var(--border-gray);
+  /* padding: 5px 0px; */
+}
+.product-d-quantity button {
+  padding: 10px 0px;
+}
+
+.product-d-quantity .btn-1:hover {
+  background-color: var(--bg-black);
+  color: var(--text-white);
+}
+
+.product-d-quantity .btn-2 {
+  background-color: var(--bg-black);
+  color: var(--text-white);
+}
+.product-d-quantity .btn-2:hover {
+  background-color: var(--bg-orange);
+  color: var(--text-white);
+}
+
+.product-d-quantity .links-btns a{
+   color: var(--text-black);
+   text-decoration: none;
+  }
+
+
+
+  /* tab section  */
+.tab-section .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  background-color: var(--bg-black);
+}
+.tab-section .nav-link{
+  color: var(--text-black);
+}
+
+  /* media query  */
+
+  @media screen and (max-width:1200px) {
+    #productDheight-col{
+      height: 630px;
+      overflow-y: scroll;
+    }
+    #productDheight-col::-webkit-scrollbar{
+     display: none;
+    }
+  }
+  @media screen and (max-width:992px) {
+    #productDheight-col{
+      height: 500px;
+      overflow-y:scroll ;
+    }
+  }
+  @media screen and (max-width:768px) {
+    #productDheight-col{
+      height: 100%;
+      margin-top: 15px;
+    }
+  }
+  @media screen and (max-width:550px) {
+    #askQuestionmodel .modal-content{
+      width: 100% !important;
+    }
+
+
+  }

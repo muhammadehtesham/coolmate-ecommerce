@@ -1,0 +1,13 @@
+.productionDetail-inner .production-d-imageGrid{
+    height: 722px;
+    overflow-y: scroll;
+}
+
+.productionDetail-inner .production-d-imageGrid::-webkit-scrollbar{
+   display: none;
+}
+
+
+.productionDetail-inner .production-d-imageGrid img{
+   width: 100%;
+}

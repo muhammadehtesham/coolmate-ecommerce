@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --text-dark-gray: gray;
+  --text-light-gray: #d3d3d3;
+  --text-black: black;
+  --text-white: white;
+  --bg-black: black;
+}
+
+.myaccount-inner {
+  color: var(--text-dark-gray);
+  font-size: 20px;
+}
+
+.myaccount-inner span {
+  color: var(--text-black);
+}
+
+.myaccount-inner ul li {
+  list-style: none;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.myaccount-inner .active {
+  color: var(--text-black);
+}
+.myaccount-inner ul li a {
+  color: var(--text-dark-gray);
+}
+.changeSection-ul li {
+  font-size: 22px;
+  margin-top: 4px;
+}
+
+.hidden-arrow {
+  display: none;
+}
+.show-arrow {
+  display: inline-block;
+}
+
+.changeSection {
+  display: none;
+}
+.activeSection {
+  display: block;
+}
+
+/* Addresss  */
+.address-li {
+  color: var(--text-black);
+  padding-top: 4px;
+}
+
+.address-li button {
+  padding: 10px 65px;
+  background-color: var(--bg-black);
+  color: var(--text-white);
+  margin-bottom: 20px;
+}
+/* hidden billing  address */
+.hidden-bill-address label {
+  color: var(--text-black);
+  margin-top: 20px;
+  font-size: 18px;
+}
+.hidden-bill-address input,
+.hidden-bill-address select {
+  font-size: 18px;
+  padding: 0px 5px 10px 0px;
+  margin-right: 0px;
+  margin-top: 20px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--text-light-gray);
+  outline: none;
+}
+.billing-address .modal {
+  --bs-modal-width: 673px;
+}
+.hidden-bill-address .modal-dialog {
+  padding: 0px 25px;
+  /* margin: 0px; */
+}
+
+/* hidden shipping  address */
+.hidden-shipping-address label {
+  color: var(--text-black);
+  margin-top: 20px;
+  font-size: 18px;
+}
+.hidden-shipping-address input,
+.hidden-shipping-address select {
+  font-size: 18px;
+  padding: 0px 5px 10px 0px;
+  margin-right: 0px;
+  margin-top: 20px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--text-light-gray);
+  outline: none;
+}
+.shipping-address .modal {
+  --bs-modal-width: 673px;
+}
+.hidden-shipping-address .modal-dialog {
+  padding: 0px 25px;
+}
+
+/* Account detail  */
+.account-detail-li h2 {
+  color: var(--text-black);
+}
+
+.account-detail-li form label {
+  color: var(--text-black);
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.account-detail-li form input {
+  font-size: 18px;
+  padding: 0px 5px 10px 0px;
+  margin-right: 0px;
+  margin-top: 20px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--text-light-gray);
+  outline: none;
+}
+.account-detail-li form input:hover {
+  border-bottom: 2px solid var(--text-black);
+}
+
+.account-detail-li form p {
+  font-size: 18px;
+  font-style: italic;
+  padding: 0px;
+}
+
+.account-detail-li button {
+  padding: 10px 65px;
+  background-color: var(--bg-black);
+  color: var(--text-white);
+  cursor: pointer;
+}
+
+
+
+
+
+@media screen and (max-width: 992px) {
+  .myaccount-inner .changeSections-ul {
+    overflow-x: scroll;
+    padding: 0;
+    margin-bottom: 0px;
+    width: 836px;
+  }
+  .myaccount-inner .changeSections-ul li {
+    padding: 0px 3px;
+    margin-bottom: 0px;
+    margin-right: 20px;
+  }
+
+  .custom-width {
+    width: 100% !important;
+    overflow: scroll;
+  }
+  .show-arrow {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .myaccount-inner {
+    padding: 0px 20px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .hidden-bill-address .modal-dialog {
+    margin: 0px;
+  }
+  .hidden-shipping-address .modal-dialog {
+    margin: 0px;
+  }
+
+  /* acount detail */
+  .account-detail-li form input {
+    padding: 0px 5px 10px 12px;
+  }
+}

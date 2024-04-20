@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --text-dark-gray: gray;
+  --text-light-gray: #d3d3d3;
+  --text-black: black;
+  --text-white: white;
+  --bg-black: black;
+}
+
+.myaccount-inner .changeSections-ul {
+  /* overflow-x: scroll; */
+  padding: 0;
+  margin-bottom: 0px;
+  width: 836px;
+}
+
+.myaccount-inner .changeSections-ul li {
+  padding: 0px 3px;
+  margin-bottom: 0px;
+  margin-right: 20px;
+}
+
+.custom-width {
+  width: 100% !important;
+  /* overflow: scroll; */
+}
+
+.show-arrow {
+    display: none;
+  }
+
+
+
+@media screen and (max-width: 768px) {
+  .myaccount-inner {
+    padding: 0px 20px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .hidden-bill-address .modal-dialog {
+    margin: 0px;
+  }
+  .hidden-shipping-address .modal-dialog {
+    margin: 0px;
+  }
+
+  /* acount detail */
+  .account-detail-li form input {
+    padding: 0px 5px 10px 12px;
+  }
+}

@@ -1,0 +1,31 @@
+:root{
+    --border-gray:rgb(208, 208, 208);
+}
+
+.productionDetail-inner .custom-btn-style{
+    width: 218px;
+    border: 1px solid var(--border-gray);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.productionDetail-inner .dropdown-menu{
+    width: 220px;
+    text-align: start;
+
+}
+
+
+
+/*only  in image switch  */
+
+.buttons-image-switch {
+   
+}
+.buttons-image-switch button{ 
+        width: 47px;
+        border: none;
+        margin-right: 6px;
+
+}

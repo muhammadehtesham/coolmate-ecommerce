@@ -1,0 +1,28 @@
+.productionDetail .carousel-indicators button {
+  width: 140px !important;
+  height: 119px !important;
+  opacity: 1;
+}
+.productionDetail .buttons-default {
+  display: flex;
+  gap: 3px;
+  margin-top: 12px;
+}
+
+.productionDetail .buttons-default button {
+  border: none;
+}
+
+/* only on image grid 1 */
+
+.productionDetail .buttons-default-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 6px;
+  margin-top: 5px;
+}
+
+.productionDetail .buttons-default-grid button {
+  border: none;
+}
+ 
